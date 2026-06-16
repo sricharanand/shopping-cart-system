@@ -12,8 +12,8 @@
 
 ## DATABASE SCHEMA
 
-- Shop(<ins> user_id </ins>, user_name)
-- Product(<ins> product_id </ins>, product_name, quantity_in_stock, price)
-- Wallet(<ins> wallet_id </ins>, user_id, balance)
-- Cart(<ins> cart_id </ins>, user_id)
-- Cart_Item(<ins> cart_id, product_id </ins>, quantity)
+- Shop(<ins>user_id</ins> , user_name)
+- Product(<ins>product_id</ins> , product_name, quantity_in_stock, price)
+- Wallet(<ins>wallet_id</ins> , user_id, balance)
+- Cart(<ins>cart_id</ins> , user_id)
+- Cart_Item(<ins>cart_id, product_id</ins> , quantity)
